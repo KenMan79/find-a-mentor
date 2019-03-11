@@ -3,7 +3,7 @@ import React from "react";
 import "./header.css";
 
 const Header = () => (
-  <header>
+  <header className="header">
     <svg width="180" height="105" viewBox="0 0 180 105">
       <g fill="none" fillRule="evenodd">
         <g fillRule="nonzero">

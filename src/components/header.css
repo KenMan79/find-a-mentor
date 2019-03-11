@@ -1,5 +1,5 @@
-header {
-  display: flex;
+.header {
+  display: flex !important;
   justify-content: space-between;
   margin: 50px 30px 0px;
   align-items: center;

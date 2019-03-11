@@ -9,11 +9,13 @@ import React from "react";
 import PropTypes from "prop-types";
 
 import Header from "./header";
+import Search from "./search";
 import "./layout.css";
 
 const Layout = ({ children }) => (
   <>
     <Header />
+    <Search />
     <div>
       <main>{children}</main>
     </div>
